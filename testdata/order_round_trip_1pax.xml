@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OrderViewRS TimeStamp="2018-01-26T11:56:03.289+02:00" Version="IATA2017.2" TransactionIdentifier="TransactionID" xmlns="http://www.iata.org/IATA/EDIST/2017.2">
+	<Document>
+		<Name>KRONOS NDC GATEWAY</Name>
+	</Document>
+	<Success/>
+	<Response>
+		<OrderViewProcessing/>
+		<Order OrderID="D16EV5" Owner="C9" OwnerType="ORA">
+			<TotalOrderPrice>
+				<SimpleCurrencyPrice Code="USD">2935.50</SimpleCurrencyPrice>
+			</TotalOrderPrice>
+			<Payments>
+				<Payment>
+					<Type>CC</Type>
+					<Status/>
+					<Amount>
+						<SimpleCurrencyPrice>2935.50</SimpleCurrencyPrice>
+					</Amount>
+					<Method>
+						<PaymentCardMethod>
+							<CardType>CC</CardType>
+							<CardHolderName>John Jones</CardHolderName>
+							<EffectiveExpireDate>
+								<Expiration>1212</Expiration>
+							</EffectiveExpireDate>
+						</PaymentCardMethod>
+					</Method>
+				</Payment>
+			</Payments>
+			<OrderItems>
+				<OrderItem OrderItemID="ORDERITEM1" Owner="C9">
+					<ItemStatus>OK</ItemStatus>
+					<PriceDetail>
+						<BaseAmount Taxable="true" Code="USD">437.00</BaseAmount>
+						<Taxes>
+							<Total Code="USD">740.38</Total>
+						</Taxes>
+					</PriceDetail>
+					<Service ServiceID="SV_FL13_1_FL_CDGDXB_5_SH1_1_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<SegmentRef>SEG_CDGDXB_6</SegmentRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1009_ALL_9A_SH1_2_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1009_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1010_ALL_9A_SH1_3_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1010_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1011_ALL_9A_SH1_4_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1011_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1012_ALL_9A_SH1_5_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1012_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1013_ALL_9A_SH1_6_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1013_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1014_ALL_9A_SH1_7_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1014_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1017_ALL_9A_SH1_8_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1017_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1018_ALL_9A_SH1_9_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1018_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1019_ALL_9A_SH1_10_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1019_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1020_ALL_9A_SH1_11_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1020_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1021_ALL_9A_SH1_12_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1021_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1022_ALL_9A_SH1_13_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1022_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV13_1_SV_1023_ALL_9A_SH1_14_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_CDGDXB_6">SV_1023_ALL_9A</ServiceDefinitionRef>
+					</Service>
+				</OrderItem>
+				<OrderItem OrderItemID="ORDERITEM2" Owner="C9">
+					<ItemStatus>OK</ItemStatus>
+					<PriceDetail>
+						<BaseAmount Taxable="true" Code="USD">922.00</BaseAmount>
+						<Taxes>
+							<Total Code="USD">836.12</Total>
+						</Taxes>
+					</PriceDetail>
+					<Service ServiceID="SV_FL45_1_FL_DXBCDG_15_SH1_15_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<SegmentRef>SEG_FRACDG_18</SegmentRef>
+					</Service>
+					<Service ServiceID="SV_FL45_1_FL_DXBCDG_15_SH1_16_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<SegmentRef>SEG_DXBFRA_19</SegmentRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1009_ALL_9A_SH1_17_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1009_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1009_ALL_9A_SH1_18_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1009_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1010_ALL_9A_SH1_19_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1010_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1010_ALL_9A_SH1_20_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1010_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1011_ALL_9A_SH1_21_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1011_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1011_ALL_9A_SH1_22_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1011_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1012_ALL_9A_SH1_23_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1012_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1012_ALL_9A_SH1_24_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1012_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1013_ALL_9A_SH1_25_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1013_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1013_ALL_9A_SH1_26_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1013_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1014_ALL_9A_SH1_27_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1014_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1014_ALL_9A_SH1_28_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1014_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1017_ALL_9A_SH1_29_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1017_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1017_ALL_9A_SH1_30_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1017_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1018_ALL_9A_SH1_31_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1018_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1018_ALL_9A_SH1_32_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1018_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1019_ALL_9A_SH1_33_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1019_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1019_ALL_9A_SH1_34_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1019_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1020_ALL_9A_SH1_35_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1020_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1020_ALL_9A_SH1_36_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1020_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1021_ALL_9A_SH1_37_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1021_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1021_ALL_9A_SH1_38_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1021_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1022_ALL_9A_SH1_39_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1022_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1022_ALL_9A_SH1_40_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1022_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1023_ALL_9A_SH1_41_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1023_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1023_ALL_9A_SH1_42_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_DXBFRA_19">SV_1023_ALL_9A</ServiceDefinitionRef>
+					</Service>
+					<Service ServiceID="SV_SV45_1_SV_1023_ALL_SH1_43_SH1" ServiceStatus="Service Delivery READY TO PROCEED">
+						<PassengerRef>SH1</PassengerRef>
+						<ServiceDefinitionRef SegmentRef="SEG_FRACDG_18">SV_1023_ALL</ServiceDefinitionRef>
+					</Service>
+				</OrderItem>
+			</OrderItems>
+		</Order>
+		<DataLists>
+			<PassengerList>
+				<Passenger PassengerID="SH1">
+					<PTC>ADT</PTC>
+					<Individual IndividualID="IND_SH1">
+						<GivenName>John</GivenName>
+						<Surname>Jones</Surname>
+					</Individual>
+					<ContactInfoRef>CNTCT_SH1</ContactInfoRef>
+				</Passenger>
+			</PassengerList>
+			<ContactList>
+				<ContactInformation ContactID="CNTCT_SH1">
+					<ContactProvided>
+						<EmailAddress>
+							<EmailAddressValue>john@test.com</EmailAddressValue>
+						</EmailAddress>
+					</ContactProvided>
+				</ContactInformation>
+			</ContactList>
+			<FlightSegmentList>
+				<FlightSegment SegmentKey="SEG_CDGDXB_6">
+					<Departure>
+						<AirportCode>CDG</AirportCode>
+						<Date>2018-01-30</Date>
+						<Time>19:20</Time>
+					</Departure>
+					<Arrival>
+						<AirportCode>DXB</AirportCode>
+						<Date>2018-01-31</Date>
+						<Time>03:30</Time>
+					</Arrival>
+					<MarketingCarrier>
+						<AirlineID>C9</AirlineID>
+						<FlightNumber>906</FlightNumber>
+					</MarketingCarrier>
+					<OperatingCarrier>
+						<AirlineID>9A</AirlineID>
+						<FlightNumber>906</FlightNumber>
+					</OperatingCarrier>
+					<FlightDetail>
+						<FlightDuration>
+							<Value>P0DT5H10M0S</Value>
+						</FlightDuration>
+					</FlightDetail>
+				</FlightSegment>
+				<FlightSegment SegmentKey="SEG_DXBFRA_19">
+					<Departure>
+						<AirportCode>DXB</AirportCode>
+						<Date>2018-02-06</Date>
+						<Time>08:20</Time>
+					</Departure>
+					<Arrival>
+						<AirportCode>FRA</AirportCode>
+						<Date>2018-02-06</Date>
+						<Time>10:30</Time>
+					</Arrival>
+					<MarketingCarrier>
+						<AirlineID>C9</AirlineID>
+						<FlightNumber>907</FlightNumber>
+					</MarketingCarrier>
+					<OperatingCarrier>
+						<AirlineID>9A</AirlineID>
+						<FlightNumber>907</FlightNumber>
+					</OperatingCarrier>
+					<FlightDetail>
+						<FlightDuration>
+							<Value>P0DT5H10M0S</Value>
+						</FlightDuration>
+					</FlightDetail>
+				</FlightSegment>
+				<FlightSegment SegmentKey="SEG_FRACDG_18">
+					<Departure>
+						<AirportCode>FRA</AirportCode>
+						<Date>2018-02-06</Date>
+						<Time>20:20</Time>
+					</Departure>
+					<Arrival>
+						<AirportCode>CDG</AirportCode>
+						<Date>2018-02-06</Date>
+						<Time>21:28</Time>
+					</Arrival>
+					<MarketingCarrier>
+						<AirlineID>C9</AirlineID>
+						<FlightNumber>116</FlightNumber>
+					</MarketingCarrier>
+					<OperatingCarrier>
+						<AirlineID>C9</AirlineID>
+						<FlightNumber>116</FlightNumber>
+					</OperatingCarrier>
+					<FlightDetail>
+						<FlightDuration>
+							<Value>P0DT1H8M0S</Value>
+						</FlightDuration>
+					</FlightDetail>
+				</FlightSegment>
+			</FlightSegmentList>
+			<ServiceDefinitionList>
+				<ServiceDefinition ServiceDefinitionID="SV_1011_ALL_9A" Owner="C9">
+					<Name>Lounge Pass</Name>
+					<Descriptions>
+						<Description>
+							<Text>Escape the crowds and find a quiet space to work or relax</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1023_ALL_9A" Owner="C9">
+					<Name>1st Bag</Name>
+					<Descriptions>
+						<Description>
+							<Text>Do not get caught out at the airport</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1014_ALL_9A" Owner="C9">
+					<Name>Advanced seat selection</Name>
+					<Descriptions>
+						<Description>
+							<Text>A convenient option that lets you reserve your preferred seat</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1019_ALL_9A" Owner="C9">
+					<Name>Diabetic Meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>Sugar is not used in the preparation of this meal</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1023_ALL" Owner="C9">
+					<Name>1st Bag</Name>
+					<Encoding>
+						<Code>BAG</Code>
+					</Encoding>
+					<Descriptions>
+						<Description>
+							<Text>Do not get caught out at the airport</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1017_ALL_9A" Owner="C9">
+					<Name>Standard Meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>This is a non-strict vegetarian meal</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1021_ALL_9A" Owner="C9">
+					<Name>Kosher meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>Prepared by kosher caterers under rabbinical supervision</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1013_ALL_9A" Owner="C9">
+					<Name>Muslim Meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>*Halal* meal prepared according to Islamic principles</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1020_ALL_9A" Owner="C9">
+					<Name>Lactose-free meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>This meal is for customers who are lactose-intolerant</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1018_ALL_9A" Owner="C9">
+					<Name>Low-Carb meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>For passengers with special dietary requirements as low-carb</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1010_ALL_9A" Owner="C9">
+					<Name>2nd Bag</Name>
+					<Descriptions>
+						<Description>
+							<Text>Second bag</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1022_ALL_9A" Owner="C9">
+					<Name>Snack</Name>
+					<Descriptions>
+						<Description>
+							<Text>Enjoy a wide selection of complimentary snacks and beverages</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1012_ALL_9A" Owner="C9">
+					<Name>Vegetarian Meal</Name>
+					<Descriptions>
+						<Description>
+							<Text>Vegetarian meal flavoured with spices from Indian sub-continent</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+				<ServiceDefinition ServiceDefinitionID="SV_1009_ALL_9A" Owner="C9">
+					<Name>Inflight Wi-Fi</Name>
+					<Descriptions>
+						<Description>
+							<Text>Stay connected using any Wi-Fi enabled device</Text>
+						</Description>
+					</Descriptions>
+				</ServiceDefinition>
+			</ServiceDefinitionList>
+		</DataLists>
+		<Metadata>
+			<Other>
+				<OtherMetadata>
+					<CurrencyMetadatas>
+						<CurrencyMetadata MetadataKey="USD">
+							<Decimals>2</Decimals>
+						</CurrencyMetadata>
+					</CurrencyMetadatas>
+				</OtherMetadata>
+			</Other>
+		</Metadata>
+	</Response>
+</OrderViewRS>

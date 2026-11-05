@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IATA_AirShoppingRS xmlns="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersMessage" xmlns:c="http://www.iata.org/IATA/2015/EASD/00/IATA_OffersAndOrdersCommonTypes">
+  <Response>
+    <c:DataLists>
+      <c:PaxList><c:Pax><c:PaxID>PAX1</c:PaxID><c:PTC>ADT</c:PTC></c:Pax></c:PaxList>
+      <c:ServiceDefinitionList><c:ServiceDefinition><c:Name>Seat</c:Name><c:OwnerCode>C9</c:OwnerCode><c:ServiceDefinitionID>SD1</c:ServiceDefinitionID></c:ServiceDefinition></c:ServiceDefinitionList>
+    </c:DataLists>
+    <c:OffersGroup>
+      <c:CarrierOffers>
+        <c:Offer>
+          <c:OfferID>OFFER1</c:OfferID>
+          <c:OfferItem>
+            <c:OfferItemID>OFFER1_ITEM1</c:OfferItemID>
+            <c:Price><c:TotalAmount CurCode="USD">1370.23</c:TotalAmount></c:Price>
+            <c:Service><c:OfferServiceAssociation><c:ServiceDefinitionRef><c:ServiceDefinitionRefID>SD1</c:ServiceDefinitionRefID></c:ServiceDefinitionRef></c:OfferServiceAssociation><c:PaxRefID>PAX1</c:PaxRefID><c:ServiceID>OFFER1_SVC1</c:ServiceID></c:Service>
+          </c:OfferItem>
+          <c:OwnerCode>C9</c:OwnerCode>
+          <c:TotalPrice><c:TotalAmount CurCode="USD">1370.23</c:TotalAmount></c:TotalPrice>
+        </c:Offer>
+        <c:Offer>
+          <c:OfferID>OFFER2</c:OfferID>
+          <c:OfferItem>
+            <c:OfferItemID>OFFER2_ITEM1</c:OfferItemID>
+            <c:Price><c:TotalAmount CurCode="USD">1370.23</c:TotalAmount></c:Price>
+            <c:Service><c:OfferServiceAssociation><c:ServiceDefinitionRef><c:ServiceDefinitionRefID>SD1</c:ServiceDefinitionRefID></c:ServiceDefinitionRef></c:OfferServiceAssociation><c:PaxRefID>PAX1</c:PaxRefID><c:ServiceID>OFFER2_SVC1</c:ServiceID></c:Service>
+          </c:OfferItem>
+          <c:OfferItem>
+            <c:OfferItemID>OFFER2_ITEM2</c:OfferItemID>
+            <c:Price><c:TotalAmount CurCode="USD">1370.23</c:TotalAmount></c:Price>
+            <c:Service><c:OfferServiceAssociation><c:ServiceDefinitionRef><c:ServiceDefinitionRefID>SD1</c:ServiceDefinitionRefID></c:ServiceDefinitionRef></c:OfferServiceAssociation><c:PaxRefID>PAX1</c:PaxRefID><c:ServiceID>OFFER2_SVC2</c:ServiceID></c:Service>
+          </c:OfferItem>
+          <c:OwnerCode>C9</c:OwnerCode>
+          <c:TotalPrice><c:TotalAmount CurCode="USD">2740.46</c:TotalAmount></c:TotalPrice>
+        </c:Offer>
+        <c:Offer>
+          <c:OfferID>OFFER3</c:OfferID>
+          <c:OfferItem>
+            <c:OfferItemID>OFFER3_ITEM1</c:OfferItemID>
+            <c:Price><c:TotalAmount CurCode="USD">998.00</c:TotalAmount></c:Price>
+            <c:Service><c:OfferServiceAssociation><c:ServiceDefinitionRef><c:ServiceDefinitionRefID>SD1</c:ServiceDefinitionRefID></c:ServiceDefinitionRef></c:OfferServiceAssociation><c:PaxRefID>PAX1</c:PaxRefID><c:ServiceID>OFFER3_SVC1</c:ServiceID></c:Service>
+          </c:OfferItem>
+          <c:OwnerCode>C9</c:OwnerCode>
+          <c:TotalPrice><c:TotalAmount CurCode="USD">998.00</c:TotalAmount></c:TotalPrice>
+        </c:Offer>
+      </c:CarrierOffers>
+    </c:OffersGroup>
+  </Response>
+  <PayloadAttributes><c:VersionNumber>21.3</c:VersionNumber></PayloadAttributes>
+</IATA_AirShoppingRS>
